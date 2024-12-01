@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class GoogleSearchTest {
     @Test
     public void testGoogleSearch() {
-        System.setProperty("webdriver.chrome.driver", "Z:\\ItStepAutoTest\\JenkinsTest\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
 
